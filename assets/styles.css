@@ -40,7 +40,6 @@ body {
   border-radius: 50%;
 }
 
-
 .disabledButton {
   background-color: #d8d8d8;
   cursor: not-allowed;
@@ -90,6 +89,10 @@ li {
 
 p {
   font-size: 22px;
+}
+
+.out-of-stock-img {
+  opacity: 0.5;
 }
 
 .product-display {
