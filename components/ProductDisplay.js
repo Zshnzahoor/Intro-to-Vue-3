@@ -52,6 +52,7 @@ app.component("product-display", {
         </button>
       </div>
     </div>
+    <review-form @review-submitted="addReview"></review-form>
   </div>`,
   data() {
     return {
